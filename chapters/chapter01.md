@@ -29,7 +29,7 @@ Think of it as a universal language that allows AI models to "talk to" and "use"
 
 ---
 
-## Why Does MCP Matter?
+## 🤔 Why Does MCP Matter?
 
 ### Powerful AI Agents
 
@@ -49,7 +49,8 @@ This is revolutionary because it means:
 
 ---
 
-## The Three Key Components of MCP
+## 🤔 The Three Key Components of MCP
+
 
 Understanding MCP is easy when you think of it like a restaurant:
 
@@ -100,7 +101,7 @@ Understanding MCP is easy when you think of it like a restaurant:
 
 ---
 
-## How MCP Works: A Simple Example
+## 📱 How MCP Works: A Simple Example
 
 Let's walk through a real example to see how all three components work together:
 
