@@ -25,3 +25,7 @@ def multiply(a:int, b:int) -> str:
 def devide(a:int, b:int) -> str:
     ans = a // b
     return output_formator(ans)
+
+if __name__ == "__main__":
+    mcp.run(transport="stdio")
+
