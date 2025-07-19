@@ -48,7 +48,7 @@
 
 ---
 
-### Chapter 3: Your First MCP Server
+### Chapter 3: First MCP Server
 **Project: Simple Calculator Server**
 
 **What you'll build:**
