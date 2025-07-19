@@ -4,7 +4,7 @@ def make_client() -> MCPClient:
 
     config = {
         "mcpServers": {
-            "mcp01": {
+            "calculator": {
                 "command": "uv",
                 "args": ["run", "server/server.py"],
                 "env": {
