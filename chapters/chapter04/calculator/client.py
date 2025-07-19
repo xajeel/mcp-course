@@ -6,7 +6,7 @@ def make_client() -> MCPClient:
         "mcpServers": {
             "calculator": {
                 "command": "uv",
-                "args": ["run", "server/server.py"],
+                "args": ["run", "server.py"],
                 "env": {
                     "PYTHONUNBUFFERED": "1"
                 }
