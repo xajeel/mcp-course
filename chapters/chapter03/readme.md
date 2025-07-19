@@ -140,8 +140,6 @@ if __name__ == "__main__":
     mcp.run(transport="stdio")
 ```
 
-## Understanding the Code
-
 ### Server Lifecycle
 1. Server starts and registers tools
 2. AI client connects via stdio
