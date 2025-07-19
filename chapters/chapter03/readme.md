@@ -34,10 +34,10 @@ uv add "mcp[cli]"
 from mcp.server.fastmcp import FastMCP
 
 # Create a new MCP server instance
-mcp = FastMCP("mcp-course")
+mcp = FastMCP("calculator")
 ```
 
-The `FastMCP` class handles all the MCP protocol details for us. The name "mcp-course" identifies our server.
+The `FastMCP` class handles all the MCP protocol details for us. The name "calculator" identifies our server.
 
 ### Step 2: Creating a Helper Function
 
@@ -111,7 +111,7 @@ Here's the complete `server.py` file:
 ```python
 from mcp.server.fastmcp import FastMCP
 
-mcp = FastMCP("mcp-course")
+mcp = FastMCP("calculator")
 
 def output_formator(number: int):
     return f"the answer is {number}"
