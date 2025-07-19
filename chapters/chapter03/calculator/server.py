@@ -1,6 +1,6 @@
 from mcp.server.fastmcp import FastMCP
 
-mcp = FastMCP("mcp-course")
+mcp = FastMCP("calculator")
 
 def output_formator(number: int):
     return f"the asnwer is {number}"
