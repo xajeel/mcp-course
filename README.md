@@ -6,7 +6,7 @@
 - Chapter 3: Your First MCP Server
 - Chapter 4: Your First MCP Client
 - Chapter 5: Building Your First Gemini Agent
-- Chapter 6: Enhanced Gemini Integration
+- Chapter 6: MCP Client & Agent using Langhain & LangGraph
 - Chapter 7: File Management MCP Server
 - Chapter 8: Advanced File Client
 - Chapter 9: Gemini File Assistant
@@ -56,25 +56,10 @@
 - Tools: add, subtract, multiply, divide
 - Learn server registration and tool handling
 
-**Code structure you'll create:**
-```python
-# calculator_server.py
-class CalculatorServer:
-    def __init__(self):
-        # Server initialization
-    
-    async def handle_add(self, a, b):
-        # Your first tool implementation
-    
-    async def handle_subtract(self, a, b):
-        # Second tool implementation
-```
-
 **Learning outcomes:**
 - Understand how MCP servers work
 - Create and register tools
 - Handle parameters and return results
-- Basic error handling
 
 ### Chapter 4: Your First MCP Client
 **Project: Basic MCP Client**
@@ -108,35 +93,17 @@ class CalculatorServer:
 - "What's 144 divided by 12?"
 - "I need to multiply 8 by 7"
 
-**Implementation approach:**
-```python
-# gemini_agent.py
-class GeminiMCPAgent:
-    def __init__(self):
-        # Initialize Gemini and MCP connection
-    
-    async def process_request(self, user_input):
-        # Use Gemini to understand request
-        # Execute appropriate MCP tool
-        # Return natural language response
-```
-
 **Your first AI-powered tool interaction:** Watch Gemini understand natural language and execute your calculator tools
 
-### Chapter 6: Enhanced Gemini Integration
-**Project: Smart Tool Router**
+### Chapter 6: MCP Client & Agent using Langhain & LangGraph
 
 **What you'll add:**
-- Multiple tool support
-- Context awareness
-- Error handling with natural language feedback
-- Conversation memory
+- MCP Client fro calculator server uing LangChain
+- React Agent using LangGraph
 
 **Your enhanced agent will:**
-- Remember previous calculations
+- MCP using LangChain & LangGraph 
 - Handle complex multi-step problems
-- Provide helpful error messages
-- Chain multiple tool calls
 
 ---
 
