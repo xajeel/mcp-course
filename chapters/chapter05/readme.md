@@ -184,7 +184,7 @@ This foundational setup provides the building blocks for creating powerful, tool
 
 ## Summary
 
-You've successfully created a Gemini agent that can:
+we have successfully created a Gemini agent that can:
 - Connect to MCP servers
 - Use external tools intelligently
 - Provide detailed reasoning
