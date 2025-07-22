@@ -1,5 +1,7 @@
 # Chapter 5: Building First Agent
 
+![alt text](../../assets/ai%20agent.jpeg)
+
 ## What Are AI Agents? 
 
 Before we dive into building our agent, let's understand what AI agents actually are and why they're revolutionizing how we interact with computers.
@@ -158,7 +160,7 @@ The asynchronous design ensures our application can handle multiple concurrent o
 
 When you run this agent, you'll see output similar to:
 
-[image](../../assets/chapter05-output.png)
+![alt text](../../assets/chapter05-output.png)
 
 
 ## Running Agent
