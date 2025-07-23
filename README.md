@@ -3,18 +3,21 @@
 
 - Chapter 1: Introduction to MCP
 - Chapter 2: Environment Setup
+**Project 1: Calculator**
 - Chapter 3: Your First MCP Server
 - Chapter 4: Your First MCP Client
 - Chapter 5: Building Your First Gemini Agent
 - Chapter 6: MCP Client & Agent using Langhain & LangGraph
+**Project 2: Basic CLI Coder Like Gemini CLI**
 - Chapter 7: File Management MCP Server
 - Chapter 8: Advanced File Client
 - Chapter 9: Gemini File Assistant
-- Chapter 10: Discovering Available MCP Servers
-- Chapter 11: Building Universal MCP Client
-- Chapter 12: Advanced Gemini Integration
-- Chapter 13: Personal AI Assistant
-- Chapter 14: Advanced Features & Deployment
+- Chapter 10: Agent Terminal Interface
+- Chapter 11: Discovering Available MCP Servers
+- Chapter 12: Building Universal MCP Client
+- Chapter 13: Advanced Gemini Integration
+- Chapter 14: Personal AI Assistant
+- Chapter 15: Advanced Features & Deployment
 
 **Milestone Checkpoints:**
 - ✅ Week 1: Basic server and client working
@@ -123,28 +126,13 @@
 - `search_files(pattern)` - Search for files
 - `create_directory(path)` - Create directories
 
-**Your server capabilities:**
-```python
-# file_server.py
-class FileManagementServer:
-    async def list_files(self, directory):
-        # Return file listings
-    
-    async def read_file(self, filepath):
-        # Return file contents
-    
-    async def write_file(self, filepath, content):
-        # Write content to file
-```
-
-### Chapter 8: Advanced File Client
-**Project: Intelligent File Client**
+### Chapter 8: File Client
+**Project: Personal File Assistant**
 
 **What you'll create:**
 - A sophisticated client for your file server
-- Batch operations
 - File filtering and sorting
-- Progress tracking
+- Chat Memory
 
 **Client features:**
 - Connect to file server
@@ -153,12 +141,10 @@ class FileManagementServer:
 - Progress reporting
 
 ### Chapter 9: Gemini File Assistant
-**Project: AI-Powered File Manager**
+**Project: Personal File Assistant**
 
 **What you'll build:**
 - Gemini agent that manages files through natural language
-- Smart file organization
-- Content-based file operations
 - Automated file tasks
 
 **Assistant will handle:**
@@ -170,12 +156,10 @@ class FileManagementServer:
 **Advanced features:**
 - File content analysis
 - Automatic file categorization
-- Bulk file operations
-- Smart file recommendations
 
 ---
 
-### Chapter 10: Discovering Available MCP Servers
+### Chapter 11: Discovering Available MCP Servers
 **What you'll learn:**
 - Popular MCP servers in the ecosystem
 - How to find and evaluate MCP servers
@@ -189,7 +173,7 @@ class FileManagementServer:
 - API integration servers
 - Development tools
 
-### Chapter 11: Building Universal MCP Client
+### Chapter 12: Building Universal MCP Client
 **Project: Multi-Server Client**
 
 **What you'll create:**
@@ -216,7 +200,7 @@ class UniversalMCPClient:
         # Execute tool on specific server
 ```
 
-### Chapter 12: Advanced Gemini Integration
+### Chapter 13: Advanced Gemini Integration
 **Project: Multi-Tool AI Agent**
 
 **What you'll build:**
@@ -238,7 +222,7 @@ class UniversalMCPClient:
 
 ---
 
-### Chapter 13: Personal AI Assistant
+### Chapter 14: Personal AI Assistant
 **Final Project: Complete AI Assistant**
 
 **What you'll build:**
@@ -254,7 +238,7 @@ class UniversalMCPClient:
 - Task automation and scheduling
 - Code analysis and generation
 
-### Chapter 14: Advanced Features & Deployment
+### Chapter 15: Advanced Features & Deployment
 **What you'll add:**
 - Error handling and recovery
 - Performance optimization
