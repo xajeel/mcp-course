@@ -3,12 +3,16 @@
 
 - Chapter 1: Introduction to MCP
 - Chapter 2: Environment Setup
+
 **Project 1: Calculator**
+
 - Chapter 3: Your First MCP Server
 - Chapter 4: Your First MCP Client
 - Chapter 5: Building Your First Gemini Agent
 - Chapter 6: MCP Client & Agent using Langhain & LangGraph
+
 **Project 2: Basic CLI Coder Like Gemini CLI**
+
 - Chapter 7: File Management MCP Server
 - Chapter 8: Advanced File Client
 - Chapter 9: Gemini File Assistant
