@@ -6,7 +6,7 @@ import logging
 logging.getLogger().setLevel(logging.CRITICAL)
 logging.getLogger('mcp_use').setLevel(logging.CRITICAL)
 
-mcp = FastMCP(name="DirectoryManager")
+mcp = FastMCP(name="asnor")
 
 IGNORED = {'__pycache__', '.git', '.venv'}
 
