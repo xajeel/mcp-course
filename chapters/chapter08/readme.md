@@ -18,7 +18,6 @@ We will build a client system that includes:
 - Handle large file lists efficiently
 - Progress reporting for operations
 
-
 ## Project Structure
 
 We will expand our ASNOR project with a dedicated client:
