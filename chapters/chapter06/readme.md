@@ -183,18 +183,18 @@ uv run server.py
 uv run main.py
 ```
 
-### Expected Output
-
-When you run this agent, you'll see output similar to:
-
-![alt text](../../assets/chatpter06-ooutput.png)
-
 ## Testing Complex Expressions
 
 Try this complex mathematical expression:
 ```
 solve the following equation "[ ({(3*4)/4} + 10)/5  ]" also explain the steps you took to answer the question and which tool you used.
 ```
+
+### Expected Output
+
+When you run this agent, you'll see output similar to:
+
+![alt text](../../assets/chatpter06-ooutput.png)
 
 The ReAct agent will:
 1. **Reason** about the order of operations
