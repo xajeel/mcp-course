@@ -183,6 +183,12 @@ uv run server.py
 uv run main.py
 ```
 
+### Expected Output
+
+When you run this agent, you'll see output similar to:
+
+![alt text](../../assets/chatpter06-ooutput.png)
+
 ## Testing Complex Expressions
 
 Try this complex mathematical expression:
