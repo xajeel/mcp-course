@@ -1,4 +1,4 @@
-# Chapter 06: MCP with LangChain & LangGraph - Building Intelligent Agents
+# Chapter 06: MCP with LangChain & LangGraph
 
 ## Introduction
 
@@ -20,13 +20,13 @@ Let'scombine the power of Model Context Protocol (MCP) with two essential AI fra
 - **State Management**: Handle complex state transitions
 - **Multi-step Reasoning**: Enable agents to break down complex problems
 
-## What You'll Build
+## What we'll Build
 
-In this chapter, you'll create an enhanced calculator agent that combines:
+We will create an enhanced calculator agent that combines:
 - **MCP Client** for calculator server using LangChain
 - **React Agent** using LangGraph for intelligent problem-solving
 
-Your enhanced agent will be capable of:
+Agent will be capable of:
 - Connecting to MCP servers through LangChain
 - Using LangGraph's ReAct pattern for complex multi-step problems
 - Explaining its reasoning process step-by-step
@@ -127,7 +127,6 @@ async def run():
 
 asyncio.run(run())
 
-# solve the following equation "[ ({(3*4)/4} + 10)/5  ]" also explain the steps you took to answer the question and which tool you used.
 ```
 
 ## Understanding the Code
@@ -180,7 +179,8 @@ GOOGLE_API_KEY=your_google_api_key_here
 ### Execution
 ```bash
 cd calculator
-python main.py
+uv run server.py
+uv run main.py
 ```
 
 ## Testing Complex Expressions
@@ -197,57 +197,8 @@ The ReAct agent will:
 4. **Continue** until the problem is solved
 5. **Explain** its reasoning process
 
-## Key Advantages of This Approach
-
-### 1. **Intelligent Problem Decomposition**
-The LangGraph ReAct agent automatically breaks down complex problems into manageable steps.
-
-### 2. **Tool Selection**
-The agent intelligently chooses which calculator operations to use and in what order.
-
-### 3. **Step-by-Step Reasoning**
-Unlike simple tool calling, the agent explains its thought process, making it educational and transparent.
-
-### 4. **Error Handling**
-The ReAct pattern allows the agent to recover from mistakes and try alternative approaches.
-
-### 5. **Scalability**
-This architecture can easily accommodate additional MCP servers and tools.
-
-## Understanding ReAct Pattern
-
-The **ReAct (Reasoning + Acting)** pattern works in cycles:
-
-1. **Thought**: The agent thinks about what to do next
-2. **Action**: The agent calls a tool or takes an action
-3. **Observation**: The agent observes the result
-4. **Repeat**: The cycle continues until the problem is solved
-
-This pattern is particularly powerful for mathematical problems that require multiple steps and careful attention to order of operations.
-
-## Exercises
-
-### Exercise 1: Basic Testing
-Run the application and try these expressions:
-- `(5 + 3) * 2`
-- `20 / 4 + 6`
-- `((8 - 3) * 4) / 2`
-
-### Exercise 2: Complex Problem Solving
-Test the agent with:
-- Nested parentheses: `(((2 + 3) * 4) - 5) / 3`
-- Multiple operations: `12 + 8 - 4 * 2 / 2`
-
-### Exercise 3: Analysis
-For each test, observe:
-- How the agent breaks down the problem
-- Which tools it chooses to use
-- The order of operations it follows
-- How it explains its reasoning
-
 ## Summary
 
-In this chapter, you've learned to:
 - Integrate MCP with LangChain for seamless tool connectivity
 - Use LangGraph to create intelligent ReAct agents
 - Build agents that can handle complex, multi-step mathematical problems
@@ -255,12 +206,4 @@ In this chapter, you've learned to:
 
 The combination of MCP, LangChain, and LangGraph creates a powerful foundation for building intelligent agents that can interact with external tools while maintaining clear reasoning processes. This approach scales well and can be extended to handle various types of problems beyond simple calculations.
 
-## Next Steps
-
-In the next chapter, we'll explore how to extend this architecture with:
-- Multiple MCP servers working together
-- Advanced state management
-- Custom reasoning patterns
-- Integration with external APIs and databases
-
-The foundation you've built here will serve as the basis for even more sophisticated AI applications.
+---
